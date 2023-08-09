@@ -1,7 +1,9 @@
 public class Student5{
   private String name;
   private int score;
-
+  // 代入前処理でscoreに正しい値が入っているかチェックできる。
+  // 一般的にはメンバ変数にはprivate指定をして、メソッドにはpublic指定をする。
+  // メソッドを経由してメンバ変数を利用したり設定したりする。
   public Student5(String n){
     name = n;
   }

@@ -2,6 +2,7 @@ class Student3{
   String name;
   int engScore;
   int mathScore;
+  // コンストラクタはオブジェクトを作った際に初期化すること
   // 名前がクラスと同じ
   // 戻り値を持たない
   Student3(String n){

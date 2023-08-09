@@ -1,10 +1,10 @@
 class Student{
   //メンバ変数（属性）//クラスが持つ属性としての変数のこと。mainメソッドの中の変数と区別するため。
-  String name;
+  String name; // 変数は宣言したブロック内で使用することができる
   int engScore;
   int mathScore;
 
-  //メソッド（操作）
+  //メソッド（操作）// メソッドには呼び出す側と呼び出される側がある
   void display(){ // 引数なし戻り値なしでも()を忘れないように
     System.out.println(name + "さん");
     System.out.println("英語" + engScore + "点・数学" + mathScore + "点");

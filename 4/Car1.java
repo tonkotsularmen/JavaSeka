@@ -1,10 +1,11 @@
-public class Car1{
+public class Car1 {
   private int no;
 
-  public void setNo(int n){
+  public void setNo(int n) {
     no = n;
   }
-  public void display(){
+
+  public void display() {
     System.out.println("ナンバーは" + no + "です。");
   }
 }
